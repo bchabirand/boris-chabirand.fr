@@ -1,0 +1,34 @@
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 18px;
+	letter-spacing: .35px;
+	text-transform: uppercase;
+
+	&.btn-primary {
+		background-image: $btn-primary-bg;
+
+		&:hover {
+			
+		}
+	}
+
+	&.btn-secondary {
+		color: $dark;
+		background: $btn-secondary-bg;
+	}
+
+	&.btn-dark {
+		border-width: 1px;
+		border-color: $gray-2;
+		color: $white;
+		background-color: $dark;
+
+		&:hover {
+			border-color: $white;
+			color: $dark;
+			background-color: $white;
+		}
+	}
+}

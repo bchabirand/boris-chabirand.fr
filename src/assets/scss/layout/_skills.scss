@@ -1,0 +1,47 @@
+#skills {
+	.skills {
+		&:not(:last-child) {
+			margin-bottom: 40px;
+		}
+		.title {
+			margin-bottom: 20px;
+		}
+		.list {
+			padding: 0;
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+
+			.item {
+				color: $gray;
+				&:not(:last-child) {
+					margin-right: 30px;
+				}
+			}
+		}
+	}
+	.skills-macbook-bg {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	#skills {
+		.skills {
+			.item {
+				margin-right: 15px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	#skills {
+		.skills-macbook-bg {
+			display: none;
+		}
+	}
+}

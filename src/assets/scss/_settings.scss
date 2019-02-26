@@ -1,0 +1,51 @@
+/* Fonts */
+$font-family-base: 'Poppins', sans-serif;
+
+/* Colors */
+$white: #FFFFFF;
+$dark: #1E1E1E;
+$gray: rgba(0, 0, 0, .4);
+$gray-2: #9B9B9B;
+$dark-gray: #343434;
+$bg-gradient: linear-gradient(to top right, #286ec3 0%,#53a0fd 47%,#5dc5f4 100%);
+$bg-gradient-reverse: linear-gradient(to bottom left, #286ec3 0%,#53a0fd 47%,#5dc5f4 100%);
+
+/* Container */
+/*$container-max-widths: (xl:960px);*/
+$grid-breakpoints: (xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1600px);
+
+/* Sidebar */
+$sidebar_w: 330px;
+
+/* Titles */
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.25;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+/* btn */
+$btn-padding-y: 1rem;
+$btn-padding-x: 1.9rem;
+$btn-font-size: 14px;
+
+$btn-padding-y-lg: 1.75rem;
+$btn-padding-x-lg: 2.3rem;
+$btn-font-size-lg: $font-size-base;
+$btn-primary-bg: $bg-gradient;
+$btn-secondary-bg: #EEEEEE;
+$btn-border-width: 0;
+$btn-font-weight: 400;
+
+/* Input */
+$input-border-radius: 0;
+$input-btn-focus-box-shadow: 0;
+
+/* hr */
+$hr-border-color: $dark-gray;

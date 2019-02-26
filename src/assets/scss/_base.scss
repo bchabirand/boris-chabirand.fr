@@ -1,0 +1,50 @@
+body {
+	&.nav-is-opened {
+		overflow: hidden;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+section {
+	padding: 80px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.container {
+	position: relative;
+}
+
+.section-title {
+	margin-bottom: 70px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.v-center {
+	position: relative;
+	top: 50%;
+	transform: translate3d(0, -50%, 0);
+}
+
+.bg-gray {
+	background-color: #f7f7f7;
+}
+.bg-gradient {
+	background: $bg-gradient;
+}
+
+@media only screen and (max-width: 767px) {
+	.section-title {
+		margin-bottom: 50px;
+		font-size: 35px;
+		font-weight: bold;
+	}
+}

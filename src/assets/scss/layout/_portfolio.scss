@@ -1,0 +1,43 @@
+#portfolio {
+	.card {
+		margin-bottom: 30px;
+
+		&::before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			background-color: transparent;
+			transition: background-color .2s ease-in;
+		}
+
+		&:hover {
+			.card-details {
+				opacity: 1;
+				transition: opacity .2s ease-in;
+			}
+
+			&::before {
+				background-color: rgba(0, 0, 0, .6);
+				transition: background-color .2s ease-in;
+			}
+		}
+
+		.card-details {
+			width: 100%;
+			height: 100%;
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			color: $white;
+			opacity: 0;
+			transition: opacity .2s ease-in;
+		}
+	}
+}

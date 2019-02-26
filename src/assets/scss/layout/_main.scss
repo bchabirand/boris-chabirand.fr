@@ -1,0 +1,20 @@
+main {
+	margin-left: $sidebar_w;
+	position: relative;
+	animation: fadeIn .6s ease-in;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	main {
+		margin-left: 0;
+	}
+}
